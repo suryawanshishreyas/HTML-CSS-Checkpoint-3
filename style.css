@@ -1,0 +1,357 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*general styles*/
+body{
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.space-between{
+    justify-content: space-between;
+}
+.flex-end{
+    justify-content: flex-end;
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+/*headder*/
+.fifty{
+    width: 50%;
+}
+.strip{
+    color: white;
+    background-color: #012D5B;
+    padding: 10px 0;
+}
+.fifty span{
+    padding-right: 40px;
+}
+.fifty li{
+    padding-left:30px ;
+}
+.navbar a{
+    color:#07315F;
+    text-decoration: none;
+}
+.navbar ul li a{
+text-transform: uppercase;
+}
+.navbar .buson a{
+    font-size: 30px;
+    font-weight: 700;
+}
+.navbar .buson a span{
+    color: red;
+
+}
+.navbar li{
+    padding-left: 30px;
+}
+.navbar ul .btn,.hero1 .btn,.hero2 .btn,.service .btn{
+    color: white;
+    padding: 8px 16px;
+    background-color: #FD656B;
+    border-radius: 8px;
+}
+/*section1*/
+.section1{
+    background-image: url(media/hero/h1_hero.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.hero1{
+    padding: 200px 0;
+    padding-left: 300px;
+}
+.hero1 .btn,.hero2 .btn,.service .btn,.cases-1 .btn{
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 10px;
+}
+h1{
+    font-size: 20px;
+    color: #FD656B;
+}
+h2{
+    font-size: 60px;
+    color:#07315F ;
+    width: 40%;
+    font-weight: 700;
+    padding-bottom:30px ;
+}
+/*section2*/
+.streach{
+    align-items: stretch;
+}
+.section2{
+    background-color: #F6F9FE;
+}
+.container1{
+    max-width: 1300px;
+    margin: 0 auto;
+    
+}
+.parent{
+    width: 30%;
+    margin: 100px 0;
+}
+.center{
+    justify-content: center;
+}
+.parent img{
+    width: 100%;
+}
+h3{
+    color: #07315F;
+    font-weight: 600;
+    font-size: 20px;
+}
+.section2 .border-box{
+    border: 4px solid #FD656B;
+   
+}
+h4{
+    color: #07315F;
+    font-weight: 700;
+    font-size: 40px;
+    padding: 10px;
+}
+.border-box .line{
+    background-color: #FD656B;
+    height: 4px;
+    width: 30%;
+    margin-left: 10px;
+}
+.border-box p{
+    padding: 10px;
+}
+.arrow{
+    padding-left: 10px;
+    padding-top: 60px;
+}
+.arrow span{
+    font-size: 20px;
+    font-weight: 500;
+   
+}
+/*section3*/
+.section3{
+    margin: 120px 0;
+}
+.team{
+    position: relative;
+}
+.hero2{
+    width: 50%;
+    padding:30px 20px;
+}
+.transparent-container{
+   position: absolute; 
+   background-color: rgba(248,248,248,0.5);
+   left: 30%;
+   bottom: 0;
+  }
+  /*section4*/
+  .section4 h4{
+      text-align: center;
+  }
+  .col-1 h3{
+      padding: 20px 0;
+  }
+  .col-1{
+      width: 30%;
+      text-align: center;
+      background-color: #FCFDFF;
+      padding:60px 40px;
+      margin-top: 40px ;
+      margin-bottom: 50px ;
+  }
+  .col-1 i{
+      font-size: 30px;
+  }
+  .service{
+      text-align: center;
+  }
+  .service .btn, .cases-1 .btn{
+      background-color: white;
+      border: 2px solid #FD656B;
+      color: #FD656B;
+  }
+ /*section5 cases*/
+ .section5{
+    background-color: #F8FAFE;
+    margin-top: 80px;
+    padding: 80px 0;
+ }
+.section5 .cases{
+    width:40%;
+}
+.cases-1-1{
+    padding-left: 80px;
+}
+.section5 .cases-1-1 p{
+    width: 50%;
+}
+.section5 .cases img{
+    width: 320px;
+}
+.cases-1{
+    margin-top: 30px;
+}
+.cases-1 .btn{
+    padding: 4px 16px;
+}
+.flex-end{
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.section5 h3{
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+/*section6 cases*/
+.section6{
+    margin: 80px;
+}
+.identity{
+    text-align: center;
+}
+.gold{
+    color: #FBBA42;
+}
+cite{
+    color: #989898;
+}
+.text{
+    color: #3D5565;
+}
+.rating{
+    padding: 20px 0;
+}
+.identity img{
+    margin-bottom: 30px;
+}
+/*section7*/
+.section7 h4{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.section7 span{
+    color: #FD656B;
+}
+.section7 .parent{
+    background-color: #FCFDFF;
+    margin-top: 0;
+}
+.section7 span,h3,time{
+    padding: 20px;
+}
+/*section8*/
+.section8{
+    color: white;
+    background-color:#07315F ;
+    padding: 60px 0;
+}
+.section8 .contact-1{
+    width: 25%;
+}
+.section8 .contact-2{
+    width: 65%;
+}
+.section8 h3{
+    color: white;
+    padding-left: 0;
+    font-size: 35px;
+    padding-top: 0;
+}
+.flex-start{
+    align-items: flex-start;
+}
+.input-1{
+    width: 48%;
+    border: 3px solid #133F6D;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+}
+.input-2{
+    width: 65%;
+    border: 3px solid #133F6D;
+    color: #8CA2B8;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+.input-3{
+    width: 30%;
+    background-color: #FD656B;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 20px;
+    text-align: center;
+}
+/**/
+.footer .copyright-txt{
+    text-align: center;
+    margin: 30px 0;
+}
+.danger{
+    color: #FD656B;
+}
